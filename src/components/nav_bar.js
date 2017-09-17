@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
 import RaisedButton from 'material-ui/RaisedButton';
-import Drawer from 'material-ui/Drawer';
-import MenuItem from 'material-ui/MenuItem';
 import FontIcon from 'material-ui/FontIcon';
 import '../css/mui-icon-custom.css';
-import {Toolbar, ToolbarGroup, ToolbarTitle} from 'material-ui/Toolbar';
 const styles = {
   button: {
-    margin: 12,
+    margin: '0px 12px',
   }
 }
 
@@ -22,16 +19,12 @@ class NavBar extends Component {
 
   render() {
     return (
-      <div>
-        <Toolbar>
-          <div className="hidden-md-up">
-            <RaisedButton
-              label="Toggle Drawer"
-              onClick={this.handleToggle}
-            />
-          </div>
-          <ToolbarTitle text="Stephen Tvedt" />
-          <ToolbarGroup className="hidden-md-down">
+      <nav className="navbar navbar-light bg-faded">
+        <div className="container">
+          <a className="navbar-brand" href="#">
+            Stephen Tvedt
+          </a>
+          <div className="navbar-right">
             <RaisedButton
               href="https://github.com/stvedt"
               target="_blank"
@@ -47,13 +40,9 @@ class NavBar extends Component {
               style={styles.button}
               icon={<FontIcon className="material-icons">file_download</FontIcon>}
             />
-          </ToolbarGroup>
-        </Toolbar>
-        <Drawer open={this.state.open}>
-          <MenuItem>Menu Item</MenuItem>
-          <MenuItem>Menu Item 2</MenuItem>
-        </Drawer>
-      </div>
+          </div>
+        </div>
+      </nav>
     )
   }
 }

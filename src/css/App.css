@@ -18,6 +18,29 @@
   font-size: large;
 }
 
+/* navbar */
+.navbar {
+  text-align: center;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.navbar-right {
+  display: block;
+}
+@media (min-width: 768px){
+  .navbar {
+    text-align: left;
+  }
+  .navbar-right {
+    text-align: right;
+    float: right;
+    display: inline-block;
+  }
+}
+
 .muidocs-icon-custom-github:before {
     content: "\e625";
 }
@@ -26,6 +49,7 @@
   text-align: center;
   margin:20px 0;
 }
+img { max-width: 100%; }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
