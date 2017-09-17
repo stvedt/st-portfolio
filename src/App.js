@@ -22,10 +22,20 @@ class App extends Component {
       <MuiThemeProvider>
         <div className="App">
           <NavBar />
-          <div className="container">
+          <div className="container work-list">
+
             <WorkItem title="Test Title" imageSrc="banana.jpg" technologies={['React','Webpack', 'ES6','Bootstrap']}>
               This is a description about the challenges of this project
             </WorkItem>
+
+            <WorkItem title="Test Title" imageSrc="banana.jpg" technologies={['React','Webpack', 'ES6','Bootstrap']}>
+              This is a description about the challenges of this project
+            </WorkItem>
+
+            <WorkItem title="Test Title" imageSrc="banana.jpg" technologies={['React','Webpack', 'ES6','Bootstrap']}>
+              This is a description about the challenges of this project
+            </WorkItem>
+
           </div>
         </div>
       </MuiThemeProvider>

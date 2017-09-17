@@ -28,7 +28,7 @@ const WorkItem = (props) => {
       <div className="col-lg-6 work-image">
         <img src={process.env.PUBLIC_URL +'/images/' + props.imageSrc} alt={props.title} />
       </div>
-      <div className="col-lg-6">
+      <div className="col-lg-6 work-details">
         <h2>{props.title}</h2>
         <p>{props.children}</p>
         <h6>Technologies Used:</h6>
