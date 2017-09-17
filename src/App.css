@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 .App-logo {
@@ -16,6 +16,10 @@
 
 .App-intro {
   font-size: large;
+}
+
+.muidocs-icon-custom-github:before {
+    content: "\e625";
 }
 
 @keyframes App-logo-spin {
