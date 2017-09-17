@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import RaisedButton from 'material-ui/RaisedButton';
 import FontIcon from 'material-ui/FontIcon';
-import './mui-icon-custom.css';
+import '../css/mui-icon-custom.css';
 import {Toolbar, ToolbarGroup, ToolbarTitle} from 'material-ui/Toolbar';
 import Chip from 'material-ui/Chip';
 const styles = {
@@ -26,7 +26,7 @@ const WorkItem = (props) => {
   return (
     <div className="row" style={styles.wrapper}>
       <div className="col-md-6 work-image">
-        <img src={props.imageSrc} alt={props.title} />
+        <img src={process.env.PUBLIC_URL +'/images/' + props.imageSrc} alt={props.title} />
       </div>
       <div className="col-md-6">
         <h2>{props.title}</h2>
