@@ -33,8 +33,7 @@ class NavBar extends Component {
               icon={<FontIcon className="muidocs-icon-custom-github" />}
             />
             <RaisedButton
-              href="https://github.com/stvedt"
-              target="_blank"
+              href={process.env.PUBLIC_URL +'/files/Stephen-Tvedt-Resume-2017.pdf'}
               label="Resume"
               download
               style={styles.button}

@@ -24,7 +24,7 @@ class App extends Component {
           <NavBar />
           <div className="container work-list">
 
-            <WorkItem title="Test Title" imageSrc="banana.jpg" technologies={['React','Webpack', 'ES6','Bootstrap']}>
+            <WorkItem title="Test Title" imageSrc="banana.jpg" technologies={['React','Webpack', 'ES6','Bootstrap']} linkText="View Site" linkURL="https://google.com">
               This is a description about the challenges of this project
             </WorkItem>
 
