@@ -2,36 +2,49 @@ import React, { Component } from 'react';
 import RaisedButton from 'material-ui/RaisedButton';
 import FontIcon from 'material-ui/FontIcon';
 import '../css/mui-icon-custom.css';
-import {Toolbar, ToolbarGroup, ToolbarTitle} from 'material-ui/Toolbar';
 const styles = {
   button: {
-    margin: 12,
+    margin: '0px 12px',
   }
 }
 
-const NavBar = () => {
-  return (
-    <Toolbar>
-      <ToolbarTitle text="Stephen Tvedt" />
-      <ToolbarGroup>
-        <RaisedButton
-          href="https://github.com/stvedt"
-          target="_blank"
-          label="Github Link"
-          style={styles.button}
-          icon={<FontIcon className="muidocs-icon-custom-github" />}
-        />
-        <RaisedButton
-          href="https://github.com/stvedt"
-          target="_blank"
-          label="Resume/CV"
-          download
-          style={styles.button}
-          icon={<FontIcon className="material-icons">file_download</FontIcon>}
-        />
-      </ToolbarGroup>
-    </Toolbar>
-  )
+class NavBar extends Component {
+  constructor(props){
+    super(props);
+    this.state = {open: false};
+  }
+
+  handleToggle = () => this.setState({open: !this.state.open});
+
+
+  render() {
+    return (
+      <nav className="navbar navbar-light bg-faded">
+        <div className="container">
+          <a className="navbar-brand" href="#">
+            Stephen Tvedt
+          </a>
+          <div className="navbar-right">
+            <RaisedButton
+              href="https://github.com/stvedt"
+              target="_blank"
+              label="Github"
+              style={styles.button}
+              icon={<FontIcon className="muidocs-icon-custom-github" />}
+            />
+            <RaisedButton
+              href="https://github.com/stvedt"
+              target="_blank"
+              label="Resume"
+              download
+              style={styles.button}
+              icon={<FontIcon className="material-icons">file_download</FontIcon>}
+            />
+          </div>
+        </div>
+      </nav>
+    )
+  }
 }
 
 export default NavBar;

@@ -25,10 +25,10 @@ const styles = {
 const WorkItem = (props) => {
   return (
     <div className="row" style={styles.wrapper}>
-      <div className="col-md-6 work-image">
+      <div className="col-lg-6 work-image">
         <img src={process.env.PUBLIC_URL +'/images/' + props.imageSrc} alt={props.title} />
       </div>
-      <div className="col-md-6">
+      <div className="col-lg-6">
         <h2>{props.title}</h2>
         <p>{props.children}</p>
         <h6>Technologies Used:</h6>
