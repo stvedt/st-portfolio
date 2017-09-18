@@ -21,7 +21,7 @@ class NavBar extends Component {
     return (
       <nav className="navbar navbar-light bg-faded">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             Stephen Tvedt
           </a>
           <div className="navbar-right">

@@ -42,21 +42,29 @@
   }
 }
 
+@media( min-width: 992px){
+  .work-list .row:nth-child(even) .work-details{
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+}
+
 .muidocs-icon-custom-github:before {
     content: "\e625";
+}
+
+.work-item {
+  margin: 20px 0;
+  background-color: #f7f7f7;
+  padding: 20px;
 }
 
 .work-image {
   text-align: center;
   margin:20px 0;
   float: right;
-}
-
-.work-list .row:nth-child(even) .work-details{
-  -webkit-box-ordinal-group: 0;
-  -webkit-order: -1;
-  -ms-flex-order: -1;
-  order: -1;
 }
 
 img { max-width: 100%; }

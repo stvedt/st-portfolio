@@ -28,7 +28,7 @@ class App extends Component {
               This is a description about the challenges of this project
             </WorkItem>
 
-            <WorkItem title="Test Title" imageSrc="banana.jpg" technologies={['React','Webpack', 'ES6','Bootstrap']}>
+            <WorkItem title="Hershey" imageSrc="hershey.jpg" technologies={['React','Webpack', 'ES6','Bootstrap']}>
               This is a description about the challenges of this project
             </WorkItem>
 
