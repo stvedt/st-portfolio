@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react'
 import './css/App.css';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
@@ -11,11 +10,6 @@ import WorkItem from './components/work_item.js';
 // http://stackoverflow.com/a/34015469/988941
 injectTapEventPlugin();
 
-const styles = {
-  button: {
-    margin: 12,
-  }
-}
 class App extends Component {
   render() {
     return (
@@ -25,21 +19,21 @@ class App extends Component {
           <div className="container work-list">
 
             <WorkItem
-              title="Banana Republic"
-              imageSrc="banana.jpg"
-              technologies={['HTML','CSS','JavaScript','WordPress', 'Google Maps API']}
-              linkText="Visit Site"
-              linkURL="https://bananarepublic.ru/en/">
-              Created a WordPress site which was localized for numerous different regions and languages. CMS editable content and custom page types created. Development also included a custom store locator which was built out using Google Maps.
-            </WorkItem>
-
-            <WorkItem
               title="Hershey"
               imageSrc="hershey.jpg" technologies={['HTML','CSS','JavaScript','AEM','HandleBars.js']}
               linkText="Visit Site"
               linkURL="https://www.hersheys.com/en_us/home.html"
               >
               For Hershey we built a UI Library for them to use for both their main Herhseys.com website and for each of their brands to use as well. We played an integral role in creating the UX/UI and integrating it into AEM for all their brands. Training of partner agencies was also necessary because each brand has their own agency which oversees individual brand identities.
+            </WorkItem>
+
+            <WorkItem
+              title="Banana Republic"
+              imageSrc="banana.jpg"
+              technologies={['HTML','CSS','JavaScript','WordPress', 'Google Maps API']}
+              linkText="Visit Site"
+              linkURL="https://bananarepublic.ru/en/">
+              Created a WordPress site which was localized for numerous different regions and languages. CMS editable content and custom page types created. Development also included a custom store locator which was built out using Google Maps.
             </WorkItem>
 
             <WorkItem
