@@ -1,15 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import RaisedButton from 'material-ui/RaisedButton';
 import FontIcon from 'material-ui/FontIcon';
 import '../css/mui-icon-custom.css';
-import {Toolbar, ToolbarGroup, ToolbarTitle} from 'material-ui/Toolbar';
 import Chip from 'material-ui/Chip';
+
 const styles = {
-  wrapper:{
-    margin: '20px 0',
-    backgroundColor: '#f9f9f9',
-    padding: 20,
-  },
   button: {
     margin: 12,
   },
@@ -23,8 +18,17 @@ const styles = {
 }
 
 const WorkItem = (props) => {
+  let button = null
+  if ( props.linkText ){
+    button = <RaisedButton
+      href={props.linkURL}
+      target="_blank"
+      label={props.linkText}
+      icon={<FontIcon className="material-icons">link</FontIcon>}
+    />
+  }
   return (
-    <div className="row" style={styles.wrapper}>
+    <div className="row work-item">
       <div className="col-lg-6 work-image">
         <img src={process.env.PUBLIC_URL +'/images/' + props.imageSrc} alt={props.title} />
       </div>
@@ -33,8 +37,10 @@ const WorkItem = (props) => {
         <p>{props.children}</p>
         <h6>Technologies Used:</h6>
         <div style={styles.chipWrapper}>
-          {props.technologies.map((tech)=> <Chip style={styles.chip}>{tech}</Chip>)}
+          {props.technologies.map((tech, index)=> <Chip key={index}style={styles.chip}>{tech}</Chip>)}
         </div>
+        <br />
+        {button}
       </div>
     </div>
   )

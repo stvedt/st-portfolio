@@ -21,7 +21,7 @@ class NavBar extends Component {
     return (
       <nav className="navbar navbar-light bg-faded">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             Stephen Tvedt
           </a>
           <div className="navbar-right">
@@ -33,8 +33,7 @@ class NavBar extends Component {
               icon={<FontIcon className="muidocs-icon-custom-github" />}
             />
             <RaisedButton
-              href="https://github.com/stvedt"
-              target="_blank"
+              href={process.env.PUBLIC_URL +'/files/Stephen-Tvedt-Resume-2017.pdf'}
               label="Resume"
               download
               style={styles.button}
