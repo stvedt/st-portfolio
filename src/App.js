@@ -20,7 +20,7 @@ class App extends Component {
 
             <WorkItem
               title="Hershey"
-              imageSrc="hershey.jpg" technologies={['HTML','CSS','JavaScript','AEM','HandleBars.js']}
+              imageSrc="hershey.jpg" technologies={['HTML','SASS','JavaScript','AEM','HandleBars.js','Grunt']}
               linkText="Visit Site"
               linkURL="https://www.hersheys.com/en_us/home.html"
               >
@@ -37,15 +37,6 @@ class App extends Component {
             </WorkItem>
 
             <WorkItem
-              title="Doctorate Research: Decision Making Task"
-              imageSrc="decision.jpg" technologies={['HTML','CSS','JavaScript','LocalStorage','Node.js','MongoDB', 'Express']}
-              linkText="View Code"
-              linkURL="https://github.com/stvedt/decision-task-node"
-              >
-              I developed an experience to help a doctoral candidate collect research for their thesis. The experience was simulating the deduction of sampling two choices with different probabilities and determing whether a user can decide which is the better bet. I built out and API using express to track all of this information and store it in a MongoDB
-            </WorkItem>
-
-            <WorkItem
               title="Homegoods Store Locator"
               imageSrc="homegoods-locator.jpg"
               technologies={['HTML','CSS','JavaScript','WordPress','Google Maps API']}
@@ -53,6 +44,14 @@ class App extends Component {
               linkURL="https://www.homegoods.com/tjx/locator.aspx"
               >
               This is a description about the challenges of this project
+            </WorkItem>
+
+            <WorkItem
+              title="Windstream Replatform"
+              imageSrc="ws-replatform.jpg" technologies={['HTML','CSS','JavaScript','Kentico','Grunt']}
+              linkText="Visit Site"
+              linkURL="https://smallbusiness.windstream.com"
+              >
             </WorkItem>
 
             <WorkItem
@@ -70,6 +69,15 @@ class App extends Component {
               technologies={['HTML','CSS','JavaScript']}
               linkText="Visit Site"
               linkURL="http://www.infinityspeakers.com/"
+              >
+            </WorkItem>
+
+            <WorkItem
+              title="Harman Portable"
+              imageSrc="harman-portable.jpg"
+              technologies={['HTML','CSS','JavaScript','HTML5 Video Player API']}
+              linkText="View Demo Video"
+              linkURL="https://www.youtube.com/watch?v=8-xAssUVCPA"
               >
             </WorkItem>
 
