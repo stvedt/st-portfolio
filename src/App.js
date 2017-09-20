@@ -1,9 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import './css/App.css';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import NavBar from './components/nav_bar.js';
 import WorkItem from './components/work_item.js';
+import SimpleSlider from './components/simple_slider.js';
 
 
 // Needed for onTouchTap
@@ -64,6 +65,21 @@ class App extends Component {
             </WorkItem>
 
             <WorkItem
+              title="BMW M2"
+              imageSrc={["m2-1.jpg","m2-2.jpg","m2-3.jpg"]}
+              technologies={['HTML','CSS','JavaScript','Mobile']}
+              >
+            </WorkItem>
+
+            <WorkItem
+              title="BMW Electronaut"
+              imageSrc={["electronaut/1.jpg","electronaut/2.jpg","electronaut/3.jpg","electronaut/4.jpg"]}
+              technologies={['HTML','CSS','JavaScript','Mobile']}
+              >
+            </WorkItem>
+
+
+            <WorkItem
               title="Harman Infinity Speakers"
               imageSrc="harman-infinity.jpg"
               technologies={['HTML','CSS','JavaScript']}
@@ -75,7 +91,7 @@ class App extends Component {
             <WorkItem
               title="Harman Portable"
               imageSrc="harman-portable.jpg"
-              technologies={['HTML','CSS','JavaScript','HTML5 Video Player API']}
+              technologies={['HTML','CSS','JavaScript','HTML5 Video']}
               linkText="View Demo Video"
               linkURL="https://www.youtube.com/watch?v=8-xAssUVCPA"
               >

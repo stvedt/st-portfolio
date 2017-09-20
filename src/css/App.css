@@ -1,22 +1,8 @@
+/* Globals */
 .App {
   font-family: 'Roboto', sans-serif;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
+img { max-width: 100%; }
 
 /* navbar */
 .navbar {
@@ -42,24 +28,29 @@
   }
 }
 
-@media( min-width: 992px){
-  .work-list .row:nth-child(even) .work-details{
-    -webkit-box-ordinal-group: 0;
-    -webkit-order: -1;
-    -ms-flex-order: -1;
-    order: -1;
-  }
-}
-
+/* Custom Icon */
 .muidocs-icon-custom-github:before {
     content: "\e625";
 }
 
+/* Work Section*/
 .work-item {
   margin: 20px 0;
   background-color: #f7f7f7;
   padding: 20px;
 }
+
+.work-item .slick-slide img {
+  max-height: 400px;
+  display: inline-block;
+}
+.work-item .slick-prev:before,
+.work-item .slick-next:before {
+  color: black;
+}
+
+.work-item .slick-next { right: 0; }
+.work-item .slick-prev { left: 0; }
 
 .work-image {
   text-align: center;
@@ -67,9 +58,11 @@
   float: right;
 }
 
-img { max-width: 100%; }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+@media( min-width: 992px){
+  .work-list .row:nth-child(even) .work-details{
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+  }
 }
