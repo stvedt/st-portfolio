@@ -4,8 +4,6 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import NavBar from './components/nav_bar.js';
 import WorkItem from './components/work_item.js';
-import SimpleSlider from './components/simple_slider.js';
-
 
 // Needed for onTouchTap
 // http://stackoverflow.com/a/34015469/988941
@@ -132,6 +130,19 @@ class App extends Component {
               linkURL="http://www.homegoods.com/stylescope/"
               >
             </WorkItem>
+
+            <WorkItem
+              title="Plug Notify Chrome Extension"
+              imageSrc="plug-screen.jpg"
+              technologies={['HTML','CSS','JavaScript','Chrome Extension']}
+              linkText="Visit Chrome Store"
+              linkURL="https://chrome.google.com/webstore/detail/plug-notify/ofoajhhdimlfpfhdcngpfakkippmdkel"
+              gitText="View Github Repo"
+              gitURL="https://github.com/stvedt/Plug-Notify"
+              >
+            </WorkItem>
+
+
 
           </div>
         </div>
