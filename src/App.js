@@ -23,7 +23,7 @@ class App extends Component {
               linkText="Visit Site"
               linkURL="https://www.hersheys.com/en_us/home.html"
               >
-              For Hershey we built a UI Library for them to use for both their main Herhseys.com website and for each of their brands to use as well. We played an integral role in creating the UX/UI and integrating it into AEM for all their brands. Training of partner agencies was also necessary because each brand has their own agency which oversees individual brand identities.
+              I lead and developed alongside our UI team, a library for Hershey to use for their corporate and brands websites (KitKat, Reeses, Twizzler, etc.). The library was built following atomic design principles to create modules/components and integrating them into a CMS (AEM). I was also responsible for training partner agencies to customize and theme the modules we created to tailor them to each brand&#39;s needs. This was done on-location and in-person at Hershey with the other agencies.
             </WorkItem>
 
             <WorkItem
@@ -42,7 +42,7 @@ class App extends Component {
               linkText="Visit Site"
               linkURL="https://www.homegoods.com/tjx/locator.aspx"
               >
-              This is a description about the challenges of this project
+              This store locator was driven by an API call to retrieve locations and store details. Using this information and the Google Maps API to plot them on a map and display based on proximity to a searched location.
             </WorkItem>
 
             <WorkItem
@@ -51,6 +51,7 @@ class App extends Component {
               linkText="Visit Site"
               linkURL="https://smallbusiness.windstream.com"
               >
+              This project involved the entire creation of a brand new platform for the marketing sites for both Small Business and Residential Markets.
             </WorkItem>
 
             <WorkItem
@@ -60,6 +61,7 @@ class App extends Component {
               linkText="Visit Site"
               linkURL="http://bmwusam.tumblr.com/"
               >
+              A fully custom Tumblr theme was created for M enthusiasts to share images of their vehicles on. In addition to tailored pages for different models of M series cars we added functionality to Tumblr. Such as a responsive layout, infinite scroll and modals views of posts.
             </WorkItem>
 
             <WorkItem
@@ -67,6 +69,7 @@ class App extends Component {
               imageSrc={["m2-1.jpg","m2-2.jpg","m2-3.jpg"]}
               technologies={['HTML','CSS','JavaScript','Mobile']}
               >
+              Mobile landing page for the release of the all new M2.
             </WorkItem>
 
             <WorkItem
@@ -74,6 +77,7 @@ class App extends Component {
               imageSrc={["electronaut/1.jpg","electronaut/2.jpg","electronaut/3.jpg","electronaut/4.jpg"]}
               technologies={['HTML','CSS','JavaScript','Mobile']}
               >
+              This was a dashboard which was created for the first pilot drivers of BMW&#39;s electric vehicles. This displayed stats based on data collected from their vehicles to show them information such as miles driven and potential savings by going electric. This also was a portal for information about the capabilities and features of their pilot vehicles.
             </WorkItem>
 
 
@@ -84,6 +88,7 @@ class App extends Component {
               linkText="Visit Site"
               linkURL="http://www.infinityspeakers.com/"
               >
+              KBS was tasked with the redesign and development the Infinity Speakers site to showcase and sell their products.
             </WorkItem>
 
             <WorkItem
@@ -93,6 +98,7 @@ class App extends Component {
               linkText="View Demo Video"
               linkURL="https://www.youtube.com/watch?v=8-xAssUVCPA"
               >
+              Created a landing page to showcase the features of the new Portable One Speaker. We used the HTML5 Video API to control the playback of a video to provide a 3D interactive experience.
             </WorkItem>
 
             <WorkItem
@@ -102,6 +108,7 @@ class App extends Component {
               linkText="Visit Site"
               linkURL="http://www.clarifisound.com/"
               >
+              Created a website and customized audio player to demonstrate the capabilities of Harman&#39;s Clarifi technology. A technology which enhances the sound quality of highly compresses audio.
             </WorkItem>
 
             <WorkItem
@@ -120,6 +127,7 @@ class App extends Component {
               linkText="Visit Site"
               linkURL="http://www.distortionofsound.com/"
               >
+              Promotional and informational site for Harman&#39;s documentary Distortion of Sound. Featuring Linkin Park.
             </WorkItem>
 
             <WorkItem
@@ -129,17 +137,19 @@ class App extends Component {
               linkText="Visit Site"
               linkURL="http://www.homegoods.com/stylescope/"
               >
+              Users select a series of images that they like and depending on that selection determines what style fits their taste. Based on that style we display a customized page revealing their recommending style and suggested products that HomeGoods has carried which fits that theme.
             </WorkItem>
 
             <WorkItem
               title="Plug Notify Chrome Extension"
               imageSrc="plug-screen.jpg"
               technologies={['HTML','CSS','JavaScript','Chrome Extension']}
-              linkText="Visit Chrome Store"
+              linkText="Chrome Store"
               linkURL="https://chrome.google.com/webstore/detail/plug-notify/ofoajhhdimlfpfhdcngpfakkippmdkel"
-              gitText="View Github Repo"
+              gitText="Github Repo"
               gitURL="https://github.com/stvedt/Plug-Notify"
               >
+              Plug Notify is a Chrome Extension that provides users with notifications. Notifications appear when a new song is playing and displays the details. Also, users get a notification whenever there username is @mentioned in the chat for the room they are in.
             </WorkItem>
 
 
