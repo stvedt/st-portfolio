@@ -6,6 +6,11 @@
 - Link to blog
 - Add Stephen Tvedt Logo
 - Add a textured background for more contrast
+- Add Plut
+- Add StreamScores.com when completed further
+- Add Alarm Clock
+- Add Shuffle Game
+- Add repo to this portfolio
 
 ## Folder Structure
 
