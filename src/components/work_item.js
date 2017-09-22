@@ -19,18 +19,28 @@ const styles = {
 }
 
 const WorkItem = (props) => {
-  let button = null
+  let linkButton = null,
+      gitButton = null;
   if ( props.linkText ){
-    button = <RaisedButton
+    linkButton = <RaisedButton
       href={props.linkURL}
       target="_blank"
       label={props.linkText}
       icon={<FontIcon className="material-icons">link</FontIcon>}
     />
   }
+
+  if ( props.gitText ){
+    gitButton = <RaisedButton
+      href={props.gitURL}
+      target="_blank"
+      label={props.gitText}
+      icon={<FontIcon className="muidocs-icon-custom-github" />}
+    />
+  }
+
   let workImageSection = null
   if(props.imageSrc.constructor === Array){
-    console.log(props.imageSrc);
     workImageSection = <SimpleSlider images={props.imageSrc}/>
   } else {
     workImageSection = <img src={process.env.PUBLIC_URL +'/images/' + props.imageSrc} alt={props.title} />
@@ -48,7 +58,7 @@ const WorkItem = (props) => {
           {props.technologies.map((tech, index)=> <Chip key={index}style={styles.chip}>{tech}</Chip>)}
         </div>
         <br />
-        {button}
+        {linkButton} {gitButton}
       </div>
     </div>
   )

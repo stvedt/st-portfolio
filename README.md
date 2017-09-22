@@ -1,6 +1,12 @@
 ## Live at:
 [https://web.stephentvedt.com](https://web.stephentvedt.com)
 
+### Features to be added
+
+- Link to blog
+- Add Stephen Tvedt Logo
+- Add a textured background for more contrast
+
 ## Folder Structure
 
 After creation, your project should look like this:

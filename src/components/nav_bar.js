@@ -11,7 +11,6 @@ const styles = {
 class NavBar extends Component {
   constructor(props){
     super(props);
-    console.log('navbar',this.props)
     this.state = {open: false};
   }
 
