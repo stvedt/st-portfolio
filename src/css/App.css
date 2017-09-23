@@ -1,4 +1,9 @@
 /* Globals */
+
+body {
+    background: url('../images/background2.jpg') #333 top left repeat;
+    margin: 0;
+}
 .App {
   font-family: 'Roboto', sans-serif;
 }
@@ -35,9 +40,9 @@ img { max-width: 100%; }
 
 /* Work Section*/
 .work-item {
-  margin: 20px 0;
+  margin: 40px 0;
   background-color: #f7f7f7;
-  padding: 20px;
+  padding: 30px;
 }
 
 .work-item .slick-slide img {
