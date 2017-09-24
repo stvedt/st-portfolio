@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import RaisedButton from 'material-ui/RaisedButton';
 import FontIcon from 'material-ui/FontIcon';
 import '../css/mui-icon-custom.css';
+import logo from '../images/square-logo.jpg';
 const styles = {
   button: {
-    margin: '0px 12px',
+    margin: '10px',
   }
 }
 
@@ -16,13 +17,13 @@ class NavBar extends Component {
 
   handleToggle = () => this.setState({open: !this.state.open});
 
-
+  //<img src={logo} alt="Stephen Tvedt Logo" />
   render() {
     return (
       <nav className="navbar navbar-light bg-faded">
         <div className="container">
           <a className="navbar-brand" href="/">
-            Stephen Tvedt
+            Stephen Tvedt - UI Lead
           </a>
           <div className="navbar-right">
             <RaisedButton
@@ -38,6 +39,14 @@ class NavBar extends Component {
               download
               style={styles.button}
               icon={<FontIcon className="material-icons">file_download</FontIcon>}
+            />
+
+            <RaisedButton
+              href="https://medium.com/@stephen_tvedt"
+              label="Blog"
+              target="_blank"
+              style={styles.button}
+              icon={<FontIcon className="material-icons">rss_feed</FontIcon>}
             />
           </div>
         </div>
