@@ -7,7 +7,7 @@ import SimpleSlider from './simple_slider.js';
 
 const styles = {
   button: {
-    margin: 12,
+    margin: "10px 0",
   },
   chip: {
     margin: 4,
@@ -27,6 +27,7 @@ const WorkItem = (props) => {
       target="_blank"
       label={props.linkText}
       icon={<FontIcon className="material-icons">link</FontIcon>}
+      style={styles.button}
     />
   }
 
@@ -36,6 +37,7 @@ const WorkItem = (props) => {
       target="_blank"
       label={props.gitText}
       icon={<FontIcon className="muidocs-icon-custom-github" />}
+      style={styles.button}
     />
   }
 
