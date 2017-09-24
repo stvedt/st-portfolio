@@ -27,6 +27,15 @@ class App extends Component {
             </WorkItem>
 
             <WorkItem
+              title="Doctorate Research: Decision Making Task"
+              imageSrc="decision.jpg" technologies={['HTML','CSS','JavaScript','LocalStorage','Node.js','MongoDB', 'Express']}
+              linkText="View Code"
+              linkURL="https://github.com/stvedt/decision-task-node"
+              >
+              I developed an experience to help a doctoral candidate collect research for their thesis. The experience was simulating the deduction of sampling two choices with different probabilities and determing whether a user can decide which is the better bet. I built out and API using express to track all of this information and store it in a MongoDB
+            </WorkItem>
+
+            <WorkItem
               title="Banana Republic"
               imageSrc="banana.jpg"
               technologies={['HTML','CSS','JavaScript','WordPress', 'Google Maps API']}
