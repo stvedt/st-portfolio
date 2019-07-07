@@ -18,8 +18,19 @@ class App extends Component {
           <div className="container work-list">
 
             <WorkItem
+              title="Zola Invites + Paper"
+              imageSrc={["invites/1.jpg","invites/2.jpg","invites/3.jpg"]}
+              technologies={['React', 'Redux','LESS','JavaScript', 'Node']}
+              linkText="Visit Site"
+              linkURL="https://www.zola.com/wedding-planning/paper"
+              >
+              I lead the team through planning to execution introducing a brand new product to the market. Oversaw a team of 8 plus engineers driving brand new revenue to Zola. This is a highly complex new product which has new fulfillment separate from our existing ecosystem. Built to scale our product offering quickly and with very little manual overhead. This product also integrates with our existing products in multiple ways to add value to our users and make creating their paper products experience as streamlined and easy as possible.
+            </WorkItem>
+
+            <WorkItem
               title="Hershey"
-              imageSrc="hershey.jpg" technologies={['HTML','SASS','JavaScript','AEM','HandleBars.js','Grunt']}
+              imageSrc="hershey.jpg"
+              technologies={['HTML','SASS','JavaScript','AEM','HandleBars.js','Grunt']}
               linkText="Visit Site"
               linkURL="https://www.hersheys.com/en_us/home.html"
               >
@@ -27,8 +38,39 @@ class App extends Component {
             </WorkItem>
 
             <WorkItem
+              title="Funk Island NYC"
+              imageSrc="funk.jpg"
+              technologies={['React','SASS','JavaScript']}
+              linkText="Visit Site"
+              linkURL="https://funkisland.nyc"
+              >
+              Worked with the Founder of Funk Island to create a luxury booking experience for last minute travels based out of NYC.
+            </WorkItem>
+            
+            <WorkItem
+              title="Villa Provartenik"
+              imageSrc="villa.jpg"
+              technologies={['React','SASS','JavaScript', 'Firebase']}
+              linkText="Visit Site"
+              linkURL="https://villaprovartenik.com/en/"
+              >
+              Full branding work for the Villa Provartenik incuding Logo Design, Photography and website. Establishing an online prescense to drive business to this brand new Villa in the mountains of Bulgaria.
+            </WorkItem>
+            
+            <WorkItem
+              title="Work Time"
+              imageSrc="work.jpg"
+              technologies={['React','JavaScript', 'Firebase']}
+              linkText="Visit Site"
+              linkURL="https://work-time-3400d.firebaseapp.com/"
+              >
+              Built out of necessity when working across time zones. This simple application displays the time for each hour in an easy to digest manner.
+            </WorkItem>
+
+            <WorkItem
               title="Doctorate Research: Decision Making Task"
-              imageSrc="decision.jpg" technologies={['HTML','CSS','JavaScript','LocalStorage','Node.js','MongoDB', 'Express']}
+              imageSrc="decision.jpg"
+              technologies={['HTML','CSS','JavaScript','LocalStorage','Node.js','MongoDB', 'Express']}
               linkText="View Code"
               linkURL="https://github.com/stvedt/decision-task-node"
               >
@@ -39,8 +81,9 @@ class App extends Component {
               title="Banana Republic"
               imageSrc="banana.jpg"
               technologies={['HTML','CSS','JavaScript','WordPress', 'Google Maps API']}
-              linkText="Visit Site"
-              linkURL="https://bananarepublic.ru/en/">
+              // linkText="Visit Site"
+              // linkURL="https://bananarepublic.ru/en/"
+              >
               Created a WordPress site which was localized for numerous different regions and languages. CMS editable content and custom page types created. Development also included a custom store locator which was built out using Google Maps.
             </WorkItem>
 
@@ -48,15 +91,16 @@ class App extends Component {
               title="Homegoods Store Locator"
               imageSrc="homegoods-locator.jpg"
               technologies={['HTML','CSS','JavaScript','WordPress','Google Maps API']}
-              linkText="Visit Site"
-              linkURL="https://www.homegoods.com/tjx/locator.aspx"
+              // linkText="Visit Site"
+              // linkURL="https://www.homegoods.com/tjx/locator.aspx"
               >
               This store locator was driven by an API call to retrieve locations and store details. Using this information and the Google Maps API to plot them on a map and display based on proximity to a searched location.
             </WorkItem>
 
             <WorkItem
               title="Windstream Replatform"
-              imageSrc="ws-replatform.jpg" technologies={['HTML','CSS','JavaScript','Kentico','Grunt']}
+              imageSrc="ws-replatform.jpg"
+              technologies={['HTML','CSS','JavaScript','Kentico','Grunt']}
               linkText="Visit Site"
               linkURL="https://smallbusiness.windstream.com"
               >
@@ -133,8 +177,8 @@ class App extends Component {
               title="Harman Distortion of Sound"
               imageSrc="harman-dos.jpg"
               technologies={['HTML','CSS','JavaScript']}
-              linkText="Visit Site"
-              linkURL="http://www.distortionofsound.com/"
+              // linkText="Visit Site"
+              // linkURL="http://www.distortionofsound.com/"
               >
               Promotional and informational site for Harman&#39;s documentary Distortion of Sound. Featuring Linkin Park.
             </WorkItem>
@@ -143,8 +187,8 @@ class App extends Component {
               title="Homegoods StyleScope"
               imageSrc="style-scope.jpg"
               technologies={['HTML','CSS','JavaScript','WordPress']}
-              linkText="Visit Site"
-              linkURL="http://www.homegoods.com/stylescope/"
+              // linkText="Visit Site"
+              // linkURL="http://www.homegoods.com/stylescope/"
               >
               Users select a series of images that they like and depending on that selection determines what style fits their taste. Based on that style we display a customized page revealing their recommending style and suggested products that HomeGoods has carried which fits that theme.
             </WorkItem>

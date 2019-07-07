@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import RaisedButton from 'material-ui/RaisedButton';
 import FontIcon from 'material-ui/FontIcon';
 import '../css/mui-icon-custom.css';
-import logo from '../images/square-logo.jpg';
 const styles = {
   button: {
     margin: '10px',
