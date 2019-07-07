@@ -7,7 +7,7 @@ import SimpleSlider from './simple_slider.js';
 
 const styles = {
   button: {
-    margin: "10px 0",
+    margin: "10px 5px",
   },
   chip: {
     margin: 4,

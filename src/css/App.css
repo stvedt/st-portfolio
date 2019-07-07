@@ -1,8 +1,8 @@
 /* Globals */
 
 body {
-    background: url('../images/background2.jpg') #333 top left repeat;
-    margin: 0;
+  background: url('../images/background2.jpg') #333 top left repeat;
+  margin: 0;
 }
 .App {
   font-family: 'Roboto', sans-serif;
@@ -15,7 +15,8 @@ img { max-width: 100%; }
 }
 
 .navbar-brand {
-  font-size: 2rem;
+  font-size: 1.3rem;
+  white-space: normal;
 }
 
 .navbar-brand img {
@@ -26,9 +27,12 @@ img { max-width: 100%; }
 .navbar-right {
   display: block;
 }
-@media (min-width: 768px){
+@media (min-width: 1024px){
   .navbar {
     text-align: left;
+  }
+  .navbar-brand {
+    font-size: 2rem;
   }
   .navbar-right {
     text-align: right;
@@ -46,7 +50,11 @@ img { max-width: 100%; }
 .work-item {
   margin: 40px 0;
   background-color: #f7f7f7;
-  padding: 30px;
+  padding: 20px;
+}
+
+.work-item h2 {
+  margin-top: 10px;
 }
 
 .work-item .slick-slide img {
@@ -63,7 +71,7 @@ img { max-width: 100%; }
 
 .work-image {
   text-align: center;
-  margin:20px 0;
+  margin: 10px 0;
   float: right;
 }
 
