@@ -1,5 +1,14 @@
 {
   "hosting": {
-    "public": "build"
+    "public": "build",
+    "headers": [
+      {
+        "source": "**/*.@(jpg|jpeg|gif|png)",
+        "headers": [ {
+          "key": "Cache-Control",
+          "value": "max-age=7200"
+        } ]
+      }
+    ]
   }
 }
