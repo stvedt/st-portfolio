@@ -25,6 +25,7 @@ const WorkItem = (props) => {
     linkButton = <RaisedButton
       href={props.linkURL}
       target="_blank"
+      rel="noopener"
       label={props.linkText}
       icon={<FontIcon className="material-icons">link</FontIcon>}
       style={styles.button}
@@ -35,6 +36,7 @@ const WorkItem = (props) => {
     gitButton = <RaisedButton
       href={props.gitURL}
       target="_blank"
+      rel="noopener"
       label={props.gitText}
       icon={<FontIcon className="muidocs-icon-custom-github" />}
       style={styles.button}

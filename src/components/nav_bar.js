@@ -27,6 +27,7 @@ class NavBar extends Component {
           <div className="navbar-right">
             <RaisedButton
               href="https://github.com/stvedt"
+              rel="noopener"
               target="_blank"
               label="Github"
               style={styles.button}
@@ -43,6 +44,7 @@ class NavBar extends Component {
             <RaisedButton
               href="https://medium.com/@stephen_tvedt"
               label="Blog"
+              rel="noopener"
               target="_blank"
               style={styles.button}
               icon={<FontIcon className="material-icons">rss_feed</FontIcon>}
