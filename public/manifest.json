@@ -1,9 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "ST Portfolio",
+  "name": "Stephen Tvedt Web Portfolio",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "S-Only-Gray.png",
       "sizes": "192x192",
       "type": "image/png"
     }
