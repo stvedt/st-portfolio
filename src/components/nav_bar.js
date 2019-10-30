@@ -42,7 +42,7 @@ class NavBar extends Component {
             />
 
             <RaisedButton
-              href="https://medium.com/@stephen_tvedt"
+              href="https://blog.stephentvedt.com"
               label="Blog"
               rel="noopener"
               target="_blank"
