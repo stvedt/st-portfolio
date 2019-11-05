@@ -33,46 +33,6 @@ class App extends Component {
             </WorkItem>
 
             <WorkItem
-              title="Funk Island NYC"
-              imageSrc="funk.jpg"
-              technologies={['React','SASS','JavaScript']}
-              linkText="Visit Site"
-              linkURL="https://funkisland.nyc"
-              >
-              Worked with the Founder of Funk Island to create a luxury booking experience for last minute travels based out of NYC.
-            </WorkItem>
-            
-            <WorkItem
-              title="Villa Provartenik"
-              imageSrc="villa.jpg"
-              technologies={['React','SASS','JavaScript', 'Firebase']}
-              linkText="Visit Site"
-              linkURL="https://villaprovartenik.com/en/"
-              >
-              Full branding work for the Villa Provartenik incuding Logo Design, Photography and website. Establishing an online prescense to drive business to this brand new Villa in the mountains of Bulgaria.
-            </WorkItem>
-            
-            <WorkItem
-              title="Work Time"
-              imageSrc="work.jpg"
-              technologies={['React','JavaScript', 'Firebase']}
-              linkText="Visit Site"
-              linkURL="https://work-time-3400d.firebaseapp.com/"
-              >
-              Built out of necessity when working across time zones. This simple application displays the time for each hour in an easy to digest manner.
-            </WorkItem>
-
-            <WorkItem
-              title="Doctorate Research: Decision Making Task"
-              imageSrc="decision.jpg"
-              technologies={['HTML','CSS','JavaScript','LocalStorage','Node.js','MongoDB', 'Express']}
-              linkText="View Code"
-              linkURL="https://github.com/stvedt/decision-task-node"
-              >
-              I developed an experience to help a doctoral candidate collect research for their thesis. The experience was simulating the deduction of sampling two choices with different probabilities and determing whether a user can decide which is the better bet. I built out and API using express to track all of this information and store it in a MongoDB
-            </WorkItem>
-
-            <WorkItem
               title="Banana Republic"
               imageSrc="banana.jpg"
               technologies={['HTML','CSS','JavaScript','WordPress', 'Google Maps API']}
@@ -83,11 +43,53 @@ class App extends Component {
             </WorkItem>
 
             <WorkItem
+              title="BMW 4Series"
+              imageSrc="4series.jpg"
+              technologies={['HTML','CSS','JavaScript',]}
+              >
+              Launch experience for the latest 4Series by BMW North America.
+            </WorkItem>
+
+            <WorkItem
+              title="Harman Infinity Speakers"
+              imageSrc="harman-infinity.jpg"
+              technologies={['HTML','CSS','JavaScript']}
+              linkText="Visit Site"
+              linkURL="http://www.infinityspeakers.com/"
+              >
+              KBS was tasked with the redesign and development the Infinity Speakers site to showcase and sell their products.
+            </WorkItem>
+
+            <WorkItem
+              title="Funk Island NYC"
+              imageSrc="funk.jpg"
+              technologies={['React','SASS','JavaScript']}
+              linkText="Visit Site"
+              linkURL="https://funkisland.nyc"
+              >
+              Worked with the Founder of Funk Island to create a luxury booking experience for last minute travels based out of NYC.
+            </WorkItem>
+
+            <WorkItem
+              title="JayZ"
+              imageSrc="jayz.jpg"
+              technologies={['HTML','CSS','JavaScript']}
+              >
+              Main site for JayZ's launch of his Gold fragrance. Showcased the product and featured a store locator.
+            </WorkItem>
+
+            <WorkItem
+              title="Moet on the Map"
+              imageSrc="moet.jpg"
+              technologies={['HTML','CSS','JavaScript']}
+              >
+              To help promote a limited edition run of Moet & Chandon we created a website to accompany as social campaign. This limited edition was run with city specific label for regions like NYC, LA and DC. The site allowed users to upload a photo and process it with filters and location graphics for their city and place them on the map.
+            </WorkItem>
+
+            <WorkItem
               title="Homegoods Store Locator"
               imageSrc="homegoods-locator.jpg"
               technologies={['HTML','CSS','JavaScript','WordPress','Google Maps API']}
-              // linkText="Visit Site"
-              // linkURL="https://www.homegoods.com/tjx/locator.aspx"
               >
               This store locator was driven by an API call to retrieve locations and store details. Using this information and the Google Maps API to plot them on a map and display based on proximity to a searched location.
             </WorkItem>
@@ -121,6 +123,14 @@ class App extends Component {
             </WorkItem>
 
             <WorkItem
+              title="BMW Center Services"
+              imageSrc="center.jpg"
+              technologies={['HTML','CSS','JavaScript']}
+              >
+              Web experience showcasing all of the benefits and capabilities of local service centers.
+            </WorkItem>
+
+            <WorkItem
               title="BMW Electronaut"
               imageSrc={["electronaut/1.jpg","electronaut/2.jpg","electronaut/3.jpg","electronaut/4.jpg"]}
               technologies={['HTML','CSS','JavaScript','Mobile']}
@@ -128,15 +138,22 @@ class App extends Component {
               This was a dashboard which was created for the first pilot drivers of BMW&#39;s electric vehicles. This displayed stats based on data collected from their vehicles to show them information such as miles driven and potential savings by going electric. This also was a portal for information about the capabilities and features of their pilot vehicles.
             </WorkItem>
 
+            <WorkItem
+              title="Dewalt Flexvolt"
+              imageSrc="dewalt.jpg"
+              technologies={['HTML','CSS','JavaScript']}
+              >
+              Design and layout for the launch of Dewalts new Flexvolt product line. Fully integrated with their ecommerce site. Featured product videos and custom css lightning bolt animation matching the creative branding of the product line.
+            </WorkItem>
 
             <WorkItem
-              title="Harman Infinity Speakers"
-              imageSrc="harman-infinity.jpg"
-              technologies={['HTML','CSS','JavaScript']}
+              title="Villa Provartenik"
+              imageSrc="villa.jpg"
+              technologies={['React','SASS','JavaScript', 'Firebase']}
               linkText="Visit Site"
-              linkURL="http://www.infinityspeakers.com/"
+              linkURL="https://villaprovartenik.com/en/"
               >
-              KBS was tasked with the redesign and development the Infinity Speakers site to showcase and sell their products.
+              Full branding work for the Villa Provartenik incuding Logo Design, Photography and website. Establishing an online prescense to drive business to this brand new Villa in the mountains of Bulgaria.
             </WorkItem>
 
             <WorkItem
@@ -189,6 +206,26 @@ class App extends Component {
             </WorkItem>
 
             <WorkItem
+              title="Work Time"
+              imageSrc="work.jpg"
+              technologies={['React','JavaScript', 'Firebase']}
+              linkText="Visit Site"
+              linkURL="https://work-time-3400d.firebaseapp.com/"
+              >
+              Built out of necessity when working across time zones. This simple application displays the time for each hour in an easy to digest manner.
+            </WorkItem>
+
+            <WorkItem
+              title="Doctorate Research: Decision Making Task"
+              imageSrc="decision.jpg"
+              technologies={['HTML','CSS','JavaScript','LocalStorage','Node.js','MongoDB', 'Express']}
+              linkText="View Code"
+              linkURL="https://github.com/stvedt/decision-task-node"
+              >
+              I developed an experience to help a doctoral candidate collect research for their thesis. The experience was simulating the deduction of sampling two choices with different probabilities and determing whether a user can decide which is the better bet. I built out and API using express to track all of this information and store it in a MongoDB
+            </WorkItem>
+
+            <WorkItem
               title="Plug Notify Chrome Extension"
               imageSrc="plug-screen.jpg"
               technologies={['HTML','CSS','JavaScript','Chrome Extension']}
@@ -199,9 +236,6 @@ class App extends Component {
               >
               Plug Notify is a Chrome Extension that provides users with notifications. Notifications appear when a new song is playing and displays the details. Also, users get a notification whenever there username is @mentioned in the chat for the room they are in.
             </WorkItem>
-
-
-
           </div>
         </div>
       </MuiThemeProvider>
