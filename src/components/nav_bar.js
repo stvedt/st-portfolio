@@ -5,16 +5,16 @@ import '../css/mui-icon-custom.css';
 const styles = {
   button: {
     margin: '10px',
-  }
-}
+  },
+};
 
 class NavBar extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
-    this.state = {open: false};
+    this.state = { open: false };
   }
 
-  handleToggle = () => this.setState({open: !this.state.open});
+  handleToggle = () => this.setState({ open: !this.state.open });
 
   //<img src={logo} alt="Stephen Tvedt Logo" />
   render() {
@@ -22,7 +22,7 @@ class NavBar extends Component {
       <nav className="navbar navbar-light bg-faded">
         <div className="container">
           <a className="navbar-brand" href="/">
-            Stephen Tvedt - Lead Engineer
+            Stephen Tvedt - Engineering Manager
           </a>
           <div className="navbar-right">
             <RaisedButton
@@ -34,11 +34,16 @@ class NavBar extends Component {
               icon={<FontIcon className="muidocs-icon-custom-github" />}
             />
             <RaisedButton
-              href={process.env.PUBLIC_URL +'/files/Stephen-Tvedt-Resume-04-2020.pdf'}
+              href={
+                process.env.PUBLIC_URL +
+                '/files/Stephen-Tvedt-Resume-04-2020.pdf'
+              }
               label="Resume"
               download
               style={styles.button}
-              icon={<FontIcon className="material-icons">file_download</FontIcon>}
+              icon={
+                <FontIcon className="material-icons">file_download</FontIcon>
+              }
             />
 
             <RaisedButton
@@ -52,7 +57,7 @@ class NavBar extends Component {
           </div>
         </div>
       </nav>
-    )
+    );
   }
 }
 
