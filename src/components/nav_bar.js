@@ -35,8 +35,7 @@ class NavBar extends Component {
             />
             <RaisedButton
               href={
-                process.env.PUBLIC_URL +
-                '/files/Stephen-Tvedt-Resume-04-2020.pdf'
+                process.env.PUBLIC_URL + '/files/Stephen-Tvedt-Resume-2022.pdf'
               }
               label="Resume"
               download
