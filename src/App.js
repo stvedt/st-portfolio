@@ -13,6 +13,13 @@ class App extends Component {
           <div className="container work-list">
 
             <WorkItem
+              title="Better.com"
+              imageSrc="better-tasks.jpg"
+              technologies={['React', 'GraphQL', 'Node']}
+              >
+              Leader of a consumer facing team of 6-8 engineers. Working on iteratively improving the information and document collection experience which allow consumers to provide Better with all the information required to underwrite and fund their loans.
+            </WorkItem>
+            <WorkItem
               title="Zola Invites + Paper"
               imageSrc={["invites/1.jpg","invites/2.jpg","invites/3.jpg"]}
               technologies={['React', 'Redux','LESS','JavaScript', 'Node']}
