@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import RaisedButton from 'material-ui/RaisedButton';
-import FontIcon from 'material-ui/FontIcon';
-import '../css/mui-icon-custom.css';
+import React, { Component } from "react";
+import RaisedButton from "material-ui/RaisedButton";
+import FontIcon from "material-ui/FontIcon";
+import "../css/mui-icon-custom.css";
 const styles = {
   button: {
-    margin: '10px',
+    margin: "10px",
   },
 };
 
@@ -35,10 +35,11 @@ class NavBar extends Component {
             />
             <RaisedButton
               href={
-                process.env.PUBLIC_URL + '/files/Stephen-Tvedt-Resume-2022.pdf'
+                process.env.PUBLIC_URL +
+                "/files/Stephen-Tvedt-Resume-05-2022.pdf"
               }
               label="Resume"
-              download
+              target="_blank"
               style={styles.button}
               icon={
                 <FontIcon className="material-icons">file_download</FontIcon>
