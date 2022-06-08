@@ -36,7 +36,7 @@ class NavBar extends Component {
             <RaisedButton
               href={
                 process.env.PUBLIC_URL +
-                "/files/Stephen-Tvedt-Resume-05-2022.pdf"
+                "/files/Stephen-Tvedt-Resume-06-2022.pdf"
               }
               label="Resume"
               target="_blank"
