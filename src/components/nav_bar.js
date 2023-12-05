@@ -25,14 +25,14 @@ class NavBar extends Component {
             Stephen Tvedt - Engineering Manager
           </a>
           <div className="navbar-right">
-            <RaisedButton
+            {/* <RaisedButton
               href="https://github.com/stvedt"
               rel="noopener"
               target="_blank"
               label="Github"
               style={styles.button}
               icon={<FontIcon className="muidocs-icon-custom-github" />}
-            />
+            /> */}
             <RaisedButton
               href={
                 process.env.PUBLIC_URL +

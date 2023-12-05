@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import './css/App.css';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import NavBar from './components/nav_bar.js';
-import WorkItem from './components/work_item.js';
+import React, { Component } from "react";
+import "./css/App.css";
+import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
+import NavBar from "./components/nav_bar.js";
+import WorkItem from "./components/work_item.js";
 
 class App extends Component {
   render() {
@@ -12,9 +12,26 @@ class App extends Component {
           <NavBar />
           <div className="container work-list">
             <WorkItem
+              title="Spotify: Artist Wrapped"
+              imageSrc={["wrapped/1.jpg", "wrapped/2.png", "wrapped/3.jpg"]}
+              technologies={["Data Engineering"]}
+              linkText="About Artist Wrapped"
+              linkURL="https://newsroom.spotify.com/2023-11-29/wrapped-for-artists-creators/"
+            >
+              As the leader of the engineering team for Artist Wrapped, I
+              spearheaded collaboration across multiple teams, streamlining
+              processes for the major campaign, Wrapped. This project, widely
+              recognized by everyone, holds particular significance for artists
+              on Spotify, including global icons like Taylor Swift, Bad Bunny,
+              Drake, and The Weeknd. In my dual capacity as a product manager, I
+              played a pivotal role in directly engaging with business and
+              marketing leaders to ensure the success of this renowned campaign
+              for some of the world's largest artists.
+            </WorkItem>
+            <WorkItem
               title="Better.com"
               imageSrc="better-tasks.jpg"
-              technologies={['React', 'GraphQL', 'Node']}
+              technologies={["React", "GraphQL", "Node"]}
             >
               Leader of a consumer facing team of 6-8 engineers. Working on
               iteratively improving the information and document collection
@@ -23,8 +40,8 @@ class App extends Component {
             </WorkItem>
             <WorkItem
               title="Zola Invites + Paper"
-              imageSrc={['invites/1.jpg', 'invites/2.jpg', 'invites/3.jpg']}
-              technologies={['React', 'Redux', 'LESS', 'JavaScript', 'Node']}
+              imageSrc={["invites/1.jpg", "invites/2.jpg", "invites/3.jpg"]}
+              technologies={["React", "Redux", "LESS", "JavaScript", "Node"]}
               linkText="Visit Site"
               linkURL="https://www.zola.com/wedding-planning/paper"
             >
@@ -43,12 +60,12 @@ class App extends Component {
               title="Hershey"
               imageSrc="hershey.jpg"
               technologies={[
-                'HTML',
-                'SASS',
-                'JavaScript',
-                'AEM',
-                'HandleBars.js',
-                'Grunt',
+                "HTML",
+                "SASS",
+                "JavaScript",
+                "AEM",
+                "HandleBars.js",
+                "Grunt",
               ]}
               linkText="Visit Site"
               linkURL="https://www.hersheys.com/en_us/home.html"
@@ -67,11 +84,11 @@ class App extends Component {
               title="Banana Republic"
               imageSrc="banana.jpg"
               technologies={[
-                'HTML',
-                'CSS',
-                'JavaScript',
-                'WordPress',
-                'Google Maps API',
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "WordPress",
+                "Google Maps API",
               ]}
               // linkText="Visit Site"
               // linkURL="https://bananarepublic.ru/en/"
@@ -85,7 +102,7 @@ class App extends Component {
             <WorkItem
               title="BMW 4Series"
               imageSrc="4series.jpg"
-              technologies={['HTML', 'CSS', 'JavaScript']}
+              technologies={["HTML", "CSS", "JavaScript"]}
             >
               Launch experience for the latest 4Series by BMW North America.
             </WorkItem>
@@ -93,7 +110,7 @@ class App extends Component {
             <WorkItem
               title="Harman Infinity Speakers"
               imageSrc="harman-infinity.jpg"
-              technologies={['HTML', 'CSS', 'JavaScript']}
+              technologies={["HTML", "CSS", "JavaScript"]}
               linkText="Visit Site"
               linkURL="http://www.infinityspeakers.com/"
             >
@@ -104,7 +121,7 @@ class App extends Component {
             <WorkItem
               title="Funk Island NYC"
               imageSrc="funk.jpg"
-              technologies={['React', 'SASS', 'JavaScript']}
+              technologies={["React", "SASS", "JavaScript"]}
               linkText="Visit Site"
               linkURL="https://funkisland.nyc"
             >
@@ -115,7 +132,7 @@ class App extends Component {
             <WorkItem
               title="JayZ"
               imageSrc="jayz.jpg"
-              technologies={['HTML', 'CSS', 'JavaScript']}
+              technologies={["HTML", "CSS", "JavaScript"]}
             >
               Main site for JayZ's launch of his Gold fragrance. Showcased the
               product and featured a store locator.
@@ -124,7 +141,7 @@ class App extends Component {
             <WorkItem
               title="Moet on the Map"
               imageSrc="moet.jpg"
-              technologies={['HTML', 'CSS', 'JavaScript']}
+              technologies={["HTML", "CSS", "JavaScript"]}
             >
               To help promote a limited edition run of Moet & Chandon we created
               a website to accompany as social campaign. This limited edition
@@ -138,11 +155,11 @@ class App extends Component {
               title="Homegoods Store Locator"
               imageSrc="homegoods-locator.jpg"
               technologies={[
-                'HTML',
-                'CSS',
-                'JavaScript',
-                'WordPress',
-                'Google Maps API',
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "WordPress",
+                "Google Maps API",
               ]}
             >
               This store locator was driven by an API call to retrieve locations
@@ -154,7 +171,7 @@ class App extends Component {
             <WorkItem
               title="Windstream Replatform"
               imageSrc="ws-replatform.jpg"
-              technologies={['HTML', 'CSS', 'JavaScript', 'Kentico', 'Grunt']}
+              technologies={["HTML", "CSS", "JavaScript", "Kentico", "Grunt"]}
               linkText="Visit Site"
               linkURL="https://smallbusiness.windstream.com"
             >
@@ -166,7 +183,7 @@ class App extends Component {
             <WorkItem
               title="BMW M/Universe Tumblr"
               imageSrc="mtumblr.jpg"
-              technologies={['HTML', 'CSS', 'JavaScript', 'Tumblr']}
+              technologies={["HTML", "CSS", "JavaScript", "Tumblr"]}
               linkText="Visit Site"
               linkURL="http://bmwusam.tumblr.com/"
             >
@@ -179,8 +196,8 @@ class App extends Component {
 
             <WorkItem
               title="BMW M2"
-              imageSrc={['m2-1.jpg', 'm2-2.jpg', 'm2-3.jpg']}
-              technologies={['HTML', 'CSS', 'JavaScript', 'Mobile']}
+              imageSrc={["m2-1.jpg", "m2-2.jpg", "m2-3.jpg"]}
+              technologies={["HTML", "CSS", "JavaScript", "Mobile"]}
             >
               Mobile landing page for the release of the all new M2.
             </WorkItem>
@@ -188,7 +205,7 @@ class App extends Component {
             <WorkItem
               title="BMW Center Services"
               imageSrc="center.jpg"
-              technologies={['HTML', 'CSS', 'JavaScript']}
+              technologies={["HTML", "CSS", "JavaScript"]}
             >
               Web experience showcasing all of the benefits and capabilities of
               local service centers.
@@ -197,12 +214,12 @@ class App extends Component {
             <WorkItem
               title="BMW Electronaut"
               imageSrc={[
-                'electronaut/1.jpg',
-                'electronaut/2.jpg',
-                'electronaut/3.jpg',
-                'electronaut/4.jpg',
+                "electronaut/1.jpg",
+                "electronaut/2.jpg",
+                "electronaut/3.jpg",
+                "electronaut/4.jpg",
               ]}
-              technologies={['HTML', 'CSS', 'JavaScript', 'Mobile']}
+              technologies={["HTML", "CSS", "JavaScript", "Mobile"]}
             >
               This was a dashboard which was created for the first pilot drivers
               of BMW&#39;s electric vehicles. This displayed stats based on data
@@ -215,7 +232,7 @@ class App extends Component {
             <WorkItem
               title="Dewalt Flexvolt"
               imageSrc="dewalt.jpg"
-              technologies={['HTML', 'CSS', 'JavaScript']}
+              technologies={["HTML", "CSS", "JavaScript"]}
             >
               Design and layout for the launch of Dewalts new Flexvolt product
               line. Fully integrated with their ecommerce site. Featured product
@@ -226,7 +243,7 @@ class App extends Component {
             <WorkItem
               title="Villa Provartenik"
               imageSrc="villa.jpg"
-              technologies={['React', 'SASS', 'JavaScript', 'Firebase']}
+              technologies={["React", "SASS", "JavaScript", "Firebase"]}
               linkText="Visit Site"
               linkURL="https://villaprovartenik.com/en/"
             >
@@ -238,7 +255,7 @@ class App extends Component {
             <WorkItem
               title="Harman Portable"
               imageSrc="harman-portable.jpg"
-              technologies={['HTML', 'CSS', 'JavaScript', 'HTML5 Video']}
+              technologies={["HTML", "CSS", "JavaScript", "HTML5 Video"]}
               linkText="View Demo Video"
               linkURL="https://www.youtube.com/watch?v=8-xAssUVCPA"
             >
@@ -250,7 +267,7 @@ class App extends Component {
             <WorkItem
               title="Harman Clarifi Sound"
               imageSrc="harman-clarifi.jpg"
-              technologies={['HTML', 'CSS', 'JavaScript']}
+              technologies={["HTML", "CSS", "JavaScript"]}
               linkText="Visit Site"
               linkURL="http://www.clarifisound.com/"
             >
@@ -262,7 +279,7 @@ class App extends Component {
             <WorkItem
               title="Harman Mark Levinson"
               imageSrc="harman-ml.jpg"
-              technologies={['HTML', 'CSS', 'JavaScript']}
+              technologies={["HTML", "CSS", "JavaScript"]}
               linkText="Visit Site"
               linkURL="http://www.marklevinson.com/"
             ></WorkItem>
@@ -270,7 +287,7 @@ class App extends Component {
             <WorkItem
               title="Harman Distortion of Sound"
               imageSrc="harman-dos.jpg"
-              technologies={['HTML', 'CSS', 'JavaScript']}
+              technologies={["HTML", "CSS", "JavaScript"]}
               // linkText="Visit Site"
               // linkURL="http://www.distortionofsound.com/"
             >
@@ -281,7 +298,7 @@ class App extends Component {
             <WorkItem
               title="Homegoods StyleScope"
               imageSrc="style-scope.jpg"
-              technologies={['HTML', 'CSS', 'JavaScript', 'WordPress']}
+              technologies={["HTML", "CSS", "JavaScript", "WordPress"]}
               // linkText="Visit Site"
               // linkURL="http://www.homegoods.com/stylescope/"
             >
@@ -295,7 +312,7 @@ class App extends Component {
             <WorkItem
               title="Work Time"
               imageSrc="work.jpg"
-              technologies={['React', 'JavaScript', 'Firebase']}
+              technologies={["React", "JavaScript", "Firebase"]}
               linkText="Visit Site"
               linkURL="https://work-time-3400d.firebaseapp.com/"
             >
@@ -308,13 +325,13 @@ class App extends Component {
               title="Doctorate Research: Decision Making Task"
               imageSrc="decision.jpg"
               technologies={[
-                'HTML',
-                'CSS',
-                'JavaScript',
-                'LocalStorage',
-                'Node.js',
-                'MongoDB',
-                'Express',
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "LocalStorage",
+                "Node.js",
+                "MongoDB",
+                "Express",
               ]}
               linkText="View Code"
               linkURL="https://github.com/stvedt/decision-task-node"
@@ -330,7 +347,7 @@ class App extends Component {
             <WorkItem
               title="Plug Notify Chrome Extension"
               imageSrc="plug-screen.jpg"
-              technologies={['HTML', 'CSS', 'JavaScript', 'Chrome Extension']}
+              technologies={["HTML", "CSS", "JavaScript", "Chrome Extension"]}
               linkText="Chrome Store"
               linkURL="https://chrome.google.com/webstore/detail/plug-notify/ofoajhhdimlfpfhdcngpfakkippmdkel"
               gitText="Github Repo"
