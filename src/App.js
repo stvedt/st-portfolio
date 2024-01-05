@@ -32,6 +32,8 @@ class App extends Component {
               title="Better.com"
               imageSrc="better-tasks.jpg"
               technologies={["React", "GraphQL", "Node"]}
+              linkText="Visit Site"
+              linkURL="https://better.com/"
             >
               Leader of a consumer facing team of 6-8 engineers. Working on
               iteratively improving the information and document collection
@@ -122,8 +124,6 @@ class App extends Component {
               title="Funk Island NYC"
               imageSrc="funk.jpg"
               technologies={["React", "SASS", "JavaScript"]}
-              linkText="Visit Site"
-              linkURL="https://funkisland.nyc"
             >
               Worked with the Founder of Funk Island to create a luxury booking
               experience for last minute travels based out of NYC.
@@ -161,6 +161,8 @@ class App extends Component {
                 "WordPress",
                 "Google Maps API",
               ]}
+              linkText="Visit Site"
+              linkURL="https://www.homegoods.com/locator"
             >
               This store locator was driven by an API call to retrieve locations
               and store details. Using this information and the Google Maps API
@@ -184,8 +186,8 @@ class App extends Component {
               title="BMW M/Universe Tumblr"
               imageSrc="mtumblr.jpg"
               technologies={["HTML", "CSS", "JavaScript", "Tumblr"]}
-              linkText="Visit Site"
-              linkURL="http://bmwusam.tumblr.com/"
+              // linkText="Visit Site"
+              // linkURL="http://bmwusam.tumblr.com/"
             >
               A fully custom Tumblr theme was created for M enthusiasts to share
               images of their vehicles on. In addition to tailored pages for
@@ -299,6 +301,8 @@ class App extends Component {
               title="Homegoods StyleScope"
               imageSrc="style-scope.jpg"
               technologies={["HTML", "CSS", "JavaScript", "WordPress"]}
+              linkText="Read More"
+              linkURL="https://www.sarahcatherinedesign.com/blog/2012/10/17/homegoods-stylescope-find-your-style"
               // linkText="Visit Site"
               // linkURL="http://www.homegoods.com/stylescope/"
             >
