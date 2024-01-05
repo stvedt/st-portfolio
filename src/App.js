@@ -14,6 +14,7 @@ class App extends Component {
             <WorkItem
               title="Spotify: Artist Wrapped"
               imageSrc={["wrapped/1.jpg", "wrapped/2.png", "wrapped/3.jpg"]}
+              technologies={["BigQuery"]}
               linkText="About Artist Wrapped"
               linkURL="https://newsroom.spotify.com/2023-11-29/wrapped-for-artists-creators/"
             >
