@@ -249,9 +249,10 @@ class App extends Component {
               linkText="Visit Site"
               linkURL="https://villaprovartenik.com/en/"
             >
-              Full branding work for the Villa Provartenik incuding Logo Design,
-              Photography and website. Establishing an online prescense to drive
-              business to this brand new Villa in the mountains of Bulgaria.
+              Full branding work for the Villa Provartenik including Logo
+              Design, Photography and website. Establishing an online presence
+              to drive business to this brand-new Villa in the mountains of
+              Bulgaria.
             </WorkItem>
 
             <WorkItem
