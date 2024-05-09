@@ -22,7 +22,7 @@ class NavBar extends Component {
       <nav className="navbar navbar-light bg-faded">
         <div className="container">
           <a className="navbar-brand" href="/">
-            Stephen Tvedt - Engineering Manager
+            Stephen Tvedt - Engineering Leader
           </a>
           <div className="navbar-right">
             {/* <RaisedButton
