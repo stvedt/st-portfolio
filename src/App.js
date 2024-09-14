@@ -29,6 +29,21 @@ class App extends Component {
               for some of the world's largest artists.
             </WorkItem>
             <WorkItem
+              title="Spotify: Manage"
+              imageSrc="spotify-manage.jpg"
+              technologies={["React", "GraphQL", "Node"]}
+              linkText="Scaling Platforms at Spotify"
+              linkURL="https://www.stride.build/scaling-tech/how-spotify-optimizes-platform-reuse-for-operational-efficiency-with-marcus-frodin"
+            >
+              Leader of the full-stack engineering team for Spotify Manage.
+              Spotify Manage is a platform that served both internal Spotify
+              teams and products across the entire business. It allowed new and
+              existing Spotify products to manage their organizations teams and
+              user permissions, greatly increasing product launches and speed to
+              market.
+            </WorkItem>
+
+            <WorkItem
               title="Better.com"
               imageSrc="better-tasks.jpg"
               technologies={["React", "GraphQL", "Node"]}
@@ -41,7 +56,7 @@ class App extends Component {
               information required to underwrite and fund their loans.
             </WorkItem>
             <WorkItem
-              title="Zola Invites + Paper"
+              title="Zola: Invites + Paper"
               imageSrc={["invites/1.jpg", "invites/2.jpg", "invites/3.jpg"]}
               technologies={["React", "Redux", "LESS", "JavaScript", "Node"]}
               linkText="Visit Site"
@@ -56,6 +71,23 @@ class App extends Component {
               existing products in multiple ways to add value to our users and
               make creating their paper products experience as streamlined and
               easy as possible.
+            </WorkItem>
+
+            <WorkItem
+              title="Zola: Vendor Marketplace"
+              imageSrc="vendor.jpg"
+              technologies={["React", "JavaScript", "Node"]}
+              linkText="Visit Site"
+              linkURL="https://www.zola.com/wedding-vendors"
+            >
+              I lead the build of the minimum viable product for the vendor
+              marketplace. This was a brand new product for Zola which allowed
+              couples to find and book vendors for their wedding. This was a
+              highly complex product which required integration with multiple
+              third party APIs and services. This was a greenfield project and I
+              was responsible for the entire web build from the ground up.
+              Working directly with the CPO to define the requirements and build
+              based on user feedback with early partner vendors.
             </WorkItem>
 
             <WorkItem
